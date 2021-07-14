@@ -1,8 +1,8 @@
-import type { NextApiRequest, NextApiResponse } from "next";
+import type { NextApiResponse } from "next";
 
 import api from "./../../../lib/api";
 
-const searchCourses = async (req: NextApiRequest, res: NextApiResponse) => {
+const searchCourses = async (_: any, res: NextApiResponse) => {
   //   const search = "Implement High Fidelity Designs with Material-UI and ReactJS";
   //   const search = "Implement-High-Fidelity-Designs-with-Material-UI-and-ReactJS";
   const search = "GraphQL-by-Example"; // Aramaları Aralarına tire koyarak yap
